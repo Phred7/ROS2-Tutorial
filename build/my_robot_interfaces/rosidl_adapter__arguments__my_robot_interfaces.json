@@ -1,0 +1,9 @@
+{
+  "package_name": "my_robot_interfaces",
+  "non_idl_tuples": [
+    "/home/wward/ros2_workspace/src/my_robot_interfaces:msg/HardwareStatus.msg",
+    "/home/wward/ros2_workspace/src/my_robot_interfaces:msg/LEDPanelState.msg",
+    "/home/wward/ros2_workspace/src/my_robot_interfaces:srv/ComputeRectangleArea.srv",
+    "/home/wward/ros2_workspace/src/my_robot_interfaces:srv/SetLEDPanelState.srv"
+  ]
+}

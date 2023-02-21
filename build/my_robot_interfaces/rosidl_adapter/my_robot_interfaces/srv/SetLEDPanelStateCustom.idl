@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_robot_interfaces/srv/SetLEDPanelStateCustom.srv
+// generated code does not contain a copyright notice
+
+
+module my_robot_interfaces {
+  module srv {
+    struct SetLEDPanelStateCustom_Request {
+      int64 led_number;
+
+      boolean state;
+    };
+    typedef boolean boolean__3[3];
+    struct SetLEDPanelStateCustom_Response {
+      boolean__3 actual_states;
+    };
+  };
+};

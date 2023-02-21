@@ -1,0 +1,10 @@
+[01m[K/home/wward/ros2_workspace/src/my_cpp_pkg/src/hw_status_publisher.cpp:[m[K In constructor ‘[01m[KHardwareStatusPublisherNode::HardwareStatusPublisherNode()[m[K’:
+[01m[K/home/wward/ros2_workspace/src/my_cpp_pkg/src/hw_status_publisher.cpp:10:122:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid HardwareStatusPublisherNode::publishHardwareStatus()[m[K’
+   10 |         hardware_status_timer_ = this->create_wall_timer(std::chrono::seconds(1), std::bind([01;31m[KHardwareStatusPublisherNode::publishHardwareStatus[m[K, this));
+      |                                                                                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wward/ros2_workspace/src/my_cpp_pkg/src/hw_status_publisher.cpp:16:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   16 |     void [01;36m[KpublishHardwareStatus[m[K() {
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/hw_status_publisher.dir/build.make:76: CMakeFiles/hw_status_publisher.dir/src/hw_status_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/hw_status_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

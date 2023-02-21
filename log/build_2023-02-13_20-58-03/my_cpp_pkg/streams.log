@@ -1,0 +1,45 @@
+[0.023s] Invoking command in '/home/wward/ros2_workspace/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wward/ros2_workspace/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/wward/ros2_workspace/build/my_cpp_pkg -- -j8 -l8
+[0.044s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.164s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.186s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.188s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.194s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.202s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.212s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.257s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.258s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.354s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.459s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.616s] -- Configuring done
+[0.630s] -- Generating done
+[0.633s] -- Build files have been written to: /home/wward/ros2_workspace/build/my_cpp_pkg
+[0.665s] [35m[1mConsolidate compiler generated dependencies of target robot_news_station[0m
+[0.665s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.677s] [ 16%] [32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o[0m
+[0.682s] [ 50%] Built target cpp_node
+[0.684s] [ 83%] Built target robot_news_station
+[7.379s] [100%] [32m[1mLinking CXX executable smartphone[0m
+[7.652s] [100%] Built target smartphone
+[7.663s] Invoked command in '/home/wward/ros2_workspace/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wward/ros2_workspace/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/wward/ros2_workspace/build/my_cpp_pkg -- -j8 -l8
+[7.707s] Invoking command in '/home/wward/ros2_workspace/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wward/ros2_workspace/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/wward/ros2_workspace/build/my_cpp_pkg
+[7.713s] -- Install configuration: ""
+[7.713s] -- Up-to-date: /home/wward/ros2_workspace/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[7.714s] -- Up-to-date: /home/wward/ros2_workspace/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[7.714s] -- Installing: /home/wward/ros2_workspace/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[7.717s] -- Set runtime path of "/home/wward/ros2_workspace/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone" to ""
+[7.717s] -- Up-to-date: /home/wward/ros2_workspace/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[7.717s] -- Up-to-date: /home/wward/ros2_workspace/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[7.717s] -- Up-to-date: /home/wward/ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[7.718s] -- Installing: /home/wward/ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[7.718s] -- Up-to-date: /home/wward/ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[7.719s] -- Installing: /home/wward/ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[7.719s] -- Up-to-date: /home/wward/ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[7.720s] -- Up-to-date: /home/wward/ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[7.720s] -- Up-to-date: /home/wward/ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[7.720s] -- Installing: /home/wward/ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[7.721s] -- Installing: /home/wward/ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[7.721s] -- Up-to-date: /home/wward/ros2_workspace/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[7.721s] -- Up-to-date: /home/wward/ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[7.722s] -- Up-to-date: /home/wward/ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[7.723s] -- Up-to-date: /home/wward/ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[7.726s] Invoked command in '/home/wward/ros2_workspace/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wward/ros2_workspace/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/wward/ros2_workspace/build/my_cpp_pkg

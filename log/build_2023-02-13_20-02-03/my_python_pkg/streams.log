@@ -1,0 +1,19 @@
+[0.533s] Invoking command in '/home/wward/ros2_workspace/build/my_python_pkg': PYTHONPATH=/home/wward/ros2_workspace/build/my_python_pkg/prefix_override:/home/wward/ros2_workspace/install/my_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/wward/ros2_workspace/build/my_python_pkg/build --no-deps install_data
+[0.727s] running develop
+[0.827s] running egg_info
+[0.827s] writing my_python_pkg.egg-info/PKG-INFO
+[0.829s] writing dependency_links to my_python_pkg.egg-info/dependency_links.txt
+[0.829s] writing entry points to my_python_pkg.egg-info/entry_points.txt
+[0.829s] writing requirements to my_python_pkg.egg-info/requires.txt
+[0.829s] writing top-level names to my_python_pkg.egg-info/top_level.txt
+[0.831s] reading manifest file 'my_python_pkg.egg-info/SOURCES.txt'
+[0.834s] writing manifest file 'my_python_pkg.egg-info/SOURCES.txt'
+[0.835s] running build_ext
+[0.836s] Creating /home/wward/ros2_workspace/install/my_python_pkg/lib/python3.10/site-packages/my-python-pkg.egg-link (link to .)
+[0.842s] Installing py_node script to /home/wward/ros2_workspace/install/my_python_pkg/lib/my_python_pkg
+[0.843s] Installing robot_news_station script to /home/wward/ros2_workspace/install/my_python_pkg/lib/my_python_pkg
+[0.843s] 
+[0.843s] Installed /home/wward/ros2_workspace/build/my_python_pkg
+[0.843s] running install_data
+[0.843s] copying package.xml -> /home/wward/ros2_workspace/install/my_python_pkg/share/my_python_pkg
+[0.872s] Invoked command in '/home/wward/ros2_workspace/build/my_python_pkg' returned '0': PYTHONPATH=/home/wward/ros2_workspace/build/my_python_pkg/prefix_override:/home/wward/ros2_workspace/install/my_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/wward/ros2_workspace/build/my_python_pkg/build --no-deps install_data

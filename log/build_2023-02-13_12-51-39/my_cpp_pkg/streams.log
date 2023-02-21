@@ -1,0 +1,26 @@
+[0.023s] Invoking command in '/home/wward/ros2_workspace/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wward/ros2_workspace/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/wward/ros2_workspace/build/my_cpp_pkg -- -j8 -l8
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.067s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[2.321s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[2.400s] [100%] Built target cpp_node
+[2.410s] Invoked command in '/home/wward/ros2_workspace/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wward/ros2_workspace/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/wward/ros2_workspace/build/my_cpp_pkg -- -j8 -l8
+[2.445s] Invoking command in '/home/wward/ros2_workspace/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wward/ros2_workspace/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/wward/ros2_workspace/build/my_cpp_pkg
+[2.449s] -- Install configuration: ""
+[2.449s] -- Installing: /home/wward/ros2_workspace/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[2.450s] -- Set runtime path of "/home/wward/ros2_workspace/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[2.451s] -- Up-to-date: /home/wward/ros2_workspace/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[2.451s] -- Up-to-date: /home/wward/ros2_workspace/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[2.452s] -- Up-to-date: /home/wward/ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[2.452s] -- Up-to-date: /home/wward/ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[2.452s] -- Up-to-date: /home/wward/ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[2.453s] -- Up-to-date: /home/wward/ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[2.453s] -- Up-to-date: /home/wward/ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[2.453s] -- Up-to-date: /home/wward/ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[2.453s] -- Up-to-date: /home/wward/ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[2.453s] -- Up-to-date: /home/wward/ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[2.453s] -- Installing: /home/wward/ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[2.454s] -- Up-to-date: /home/wward/ros2_workspace/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[2.454s] -- Up-to-date: /home/wward/ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[2.454s] -- Up-to-date: /home/wward/ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[2.454s] -- Up-to-date: /home/wward/ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[2.458s] Invoked command in '/home/wward/ros2_workspace/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wward/ros2_workspace/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/wward/ros2_workspace/build/my_cpp_pkg

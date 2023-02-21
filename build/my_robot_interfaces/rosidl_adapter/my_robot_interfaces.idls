@@ -1,0 +1,4 @@
+/home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl
+/home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LEDPanelState.idl
+/home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl
+/home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLEDPanelState.idl

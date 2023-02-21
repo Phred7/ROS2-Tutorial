@@ -1,0 +1,43 @@
+[0.011s] Invoking command in '/home/wward/ros2_workspace/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wward/ros2_workspace/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/wward/ros2_workspace/build/my_cpp_pkg -- -j8 -l8
+[0.042s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.151s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.174s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.176s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.181s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.189s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.200s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.237s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.237s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.322s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.443s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.551s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[0.565s] -- Found my_robot_interfaces: 0.0.0 (/home/wward/ros2_workspace/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[0.625s] -- Configuring done
+[0.657s] -- Generating done
+[0.661s] -- Build files have been written to: /home/wward/ros2_workspace/build/my_cpp_pkg
+[0.694s] [35m[1mConsolidate compiler generated dependencies of target robot_news_station[0m
+[0.694s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.695s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client_no_oop[0m
+[0.695s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_server[0m
+[0.695s] [35m[1mConsolidate compiler generated dependencies of target smartphone[0m
+[0.697s] [35m[1mConsolidate compiler generated dependencies of target number_counter[0m
+[0.713s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client[0m
+[0.716s] [  6%] [32mBuilding CXX object CMakeFiles/hw_status_publisher.dir/src/hw_status_publisher.cpp.o[0m
+[0.723s] [ 18%] Built target smartphone
+[0.724s] [ 31%] Built target robot_news_station
+[0.727s] [ 43%] Built target number_counter
+[0.727s] [ 56%] Built target cpp_node
+[0.727s] [ 68%] Built target add_two_ints_server
+[0.735s] [ 81%] Built target add_two_ints_client_no_oop
+[0.735s] [ 93%] Built target add_two_ints_client
+[2.464s] [01m[K/home/wward/ros2_workspace/src/my_cpp_pkg/src/hw_status_publisher.cpp:[m[K In constructor ‘[01m[KHardwareStatusPublisherNode::HardwareStatusPublisherNode()[m[K’:
+[2.465s] [01m[K/home/wward/ros2_workspace/src/my_cpp_pkg/src/hw_status_publisher.cpp:10:122:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid HardwareStatusPublisherNode::publishHardwareStatus()[m[K’
+[2.465s]    10 |         hardware_status_timer_ = this->create_wall_timer(std::chrono::seconds(1), std::bind([01;31m[KHardwareStatusPublisherNode::publishHardwareStatus[m[K, this));
+[2.465s]       |                                                                                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.465s] [01m[K/home/wward/ros2_workspace/src/my_cpp_pkg/src/hw_status_publisher.cpp:16:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.465s]    16 |     void [01;36m[KpublishHardwareStatus[m[K() {
+[2.465s]       |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.074s] gmake[2]: *** [CMakeFiles/hw_status_publisher.dir/build.make:76: CMakeFiles/hw_status_publisher.dir/src/hw_status_publisher.cpp.o] Error 1
+[3.074s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/hw_status_publisher.dir/all] Error 2
+[3.074s] gmake: *** [Makefile:146: all] Error 2
+[3.079s] Invoked command in '/home/wward/ros2_workspace/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wward/ros2_workspace/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/wward/ros2_workspace/build/my_cpp_pkg -- -j8 -l8
