@@ -29,7 +29,9 @@ setup(
             "add_two_ints_client = my_python_pkg.add_two_ints_client:main",
             "hw_status_publisher = my_python_pkg.hw_status_publisher:main",
             "battery = my_python_pkg.battery:main",
-            "led_panel = my_python_pkg.led_panel:main"
+            "led_panel = my_python_pkg.led_panel:main",
+            "turtle_spawner = my_python_pkg.turtle_spawner:main",
+            "turtle_controller = my_python_pkg.turtle_controller:main"
         ],
     },
 )

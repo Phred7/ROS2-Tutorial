@@ -12,6 +12,9 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/HardwareStatus.msg"
   "msg/LEDPanelState.msg"
+  "msg/NewTurtle.msg"
+  "msg/NewTurtleList.msg"
+  "msg/KillTurtle.msg"
   "srv/ComputeRectangleArea.srv"
   "srv/SetLEDPanelState.srv"
   )

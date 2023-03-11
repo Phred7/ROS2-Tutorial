@@ -1,0 +1,1 @@
+NewTurtle[] new_turtle_array

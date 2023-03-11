@@ -5,6 +5,9 @@
   "idl_tuples": [
     "/home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl",
     "/home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LEDPanelState.idl",
+    "/home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/NewTurtle.idl",
+    "/home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/NewTurtleList.idl",
+    "/home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/KillTurtle.idl",
     "/home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl",
     "/home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLEDPanelState.idl"
   ],
@@ -17,6 +20,9 @@
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
     "/home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/HardwareStatus.idl",
     "/home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/LEDPanelState.idl",
+    "/home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/NewTurtle.idl",
+    "/home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/NewTurtleList.idl",
+    "/home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/KillTurtle.idl",
     "/home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/ComputeRectangleArea.idl",
     "/home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/SetLEDPanelState.idl"
   ]

@@ -1,7 +1,13 @@
 msg/HardwareStatus.idl
 msg/HardwareStatus.msg
+msg/KillTurtle.idl
+msg/KillTurtle.msg
 msg/LEDPanelState.idl
 msg/LEDPanelState.msg
+msg/NewTurtle.idl
+msg/NewTurtle.msg
+msg/NewTurtleList.idl
+msg/NewTurtleList.msg
 srv/ComputeRectangleArea.idl
 srv/ComputeRectangleArea.srv
 srv/ComputeRectangleArea_Request.msg

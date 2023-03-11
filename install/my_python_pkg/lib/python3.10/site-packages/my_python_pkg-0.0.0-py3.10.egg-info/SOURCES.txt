@@ -20,6 +20,8 @@ my_python_pkg/number_publisher.py
 my_python_pkg/robot_news_station.py
 my_python_pkg/smartphone.py
 my_python_pkg/template_python_node.py
+my_python_pkg/turtle_controller.py
+my_python_pkg/turtle_spawner.py
 resource/my_python_pkg
 test/test_copyright.py
 test/test_flake8.py

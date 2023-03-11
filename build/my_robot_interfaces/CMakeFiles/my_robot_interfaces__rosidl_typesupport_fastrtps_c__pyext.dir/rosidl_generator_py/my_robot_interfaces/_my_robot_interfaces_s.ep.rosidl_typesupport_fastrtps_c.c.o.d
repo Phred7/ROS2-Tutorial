@@ -210,6 +210,15 @@ CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_
  /home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/led_panel_state__type_support.h \
  /home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/led_panel_state__struct.h \
  /home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/led_panel_state__functions.h \
+ /home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/new_turtle__type_support.h \
+ /home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/new_turtle__struct.h \
+ /home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/new_turtle__functions.h \
+ /home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/new_turtle_list__type_support.h \
+ /home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/new_turtle_list__struct.h \
+ /home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/new_turtle_list__functions.h \
+ /home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/kill_turtle__type_support.h \
+ /home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/kill_turtle__struct.h \
+ /home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/kill_turtle__functions.h \
  /home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h \
  /home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h \
  /home/wward/ros2_workspace/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h \

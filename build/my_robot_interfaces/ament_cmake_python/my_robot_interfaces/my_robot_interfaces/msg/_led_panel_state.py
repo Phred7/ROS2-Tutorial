@@ -5,10 +5,10 @@
 
 # Import statements for member types
 
-import builtins  # noqa: E402, I100
-
 # Member 'led_states'
-import numpy  # noqa: E402, I100
+import array  # noqa: E402, I100
+
+import builtins  # noqa: E402, I100
 
 import rosidl_parser.definition  # noqa: E402, I100
 
@@ -62,22 +62,18 @@ class LEDPanelState(metaclass=Metaclass_LEDPanelState):
     ]
 
     _fields_and_field_types = {
-        'led_states': 'int64[3]',
+        'led_states': 'sequence<int64>',
     }
 
     SLOT_TYPES = (
-        rosidl_parser.definition.Array(rosidl_parser.definition.BasicType('int64'), 3),  # noqa: E501
+        rosidl_parser.definition.UnboundedSequence(rosidl_parser.definition.BasicType('int64')),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        if 'led_states' not in kwargs:
-            self.led_states = numpy.zeros(3, dtype=numpy.int64)
-        else:
-            self.led_states = numpy.array(kwargs.get('led_states'), dtype=numpy.int64)
-            assert self.led_states.shape == (3, )
+        self.led_states = array.array('q', kwargs.get('led_states', []))
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -108,7 +104,7 @@ class LEDPanelState(metaclass=Metaclass_LEDPanelState):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if all(self.led_states != other.led_states):
+        if self.led_states != other.led_states:
             return False
         return True
 
@@ -124,11 +120,9 @@ class LEDPanelState(metaclass=Metaclass_LEDPanelState):
 
     @led_states.setter
     def led_states(self, value):
-        if isinstance(value, numpy.ndarray):
-            assert value.dtype == numpy.int64, \
-                "The 'led_states' numpy.ndarray() must have the dtype of 'numpy.int64'"
-            assert value.size == 3, \
-                "The 'led_states' numpy.ndarray() must have a size of 3"
+        if isinstance(value, array.array):
+            assert value.typecode == 'q', \
+                "The 'led_states' array.array() must have the type code of 'q'"
             self._led_states = value
             return
         if __debug__:
@@ -142,8 +136,7 @@ class LEDPanelState(metaclass=Metaclass_LEDPanelState):
                   isinstance(value, UserList)) and
                  not isinstance(value, str) and
                  not isinstance(value, UserString) and
-                 len(value) == 3 and
                  all(isinstance(v, int) for v in value) and
                  all(val >= -9223372036854775808 and val < 9223372036854775808 for val in value)), \
-                "The 'led_states' field must be a set or sequence with length 3 and each value of type 'int' and each integer in [-9223372036854775808, 9223372036854775807]"
-        self._led_states = numpy.array(value, dtype=numpy.int64)
+                "The 'led_states' field must be a set or sequence and each value of type 'int' and each integer in [-9223372036854775808, 9223372036854775807]"
+        self._led_states = array.array('q', value)

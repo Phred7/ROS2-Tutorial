@@ -71,12 +71,18 @@ my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/
 my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c
 my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_hardware_status.py
 my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_led_panel_state.py
+my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_new_turtle.py
+my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_new_turtle_list.py
+my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_kill_turtle.py
 my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area.py
 my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/srv/_set_led_panel_state.py
 my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/__init__.py
 my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/srv/__init__.py
 my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.c
 my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_led_panel_state_s.c
+my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_new_turtle_s.c
+my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_new_turtle_list_s.c
+my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_kill_turtle_s.c
 my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.c
 my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/srv/_set_led_panel_state_s.c
 
@@ -95,6 +101,9 @@ rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesup
 rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/my_robot_interfaces/msg/HardwareStatus.idl
 rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/my_robot_interfaces/msg/LEDPanelState.idl
+rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/my_robot_interfaces/msg/NewTurtle.idl
+rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/my_robot_interfaces/msg/NewTurtleList.idl
+rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/my_robot_interfaces/msg/KillTurtle.idl
 rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/my_robot_interfaces/srv/ComputeRectangleArea.idl
 rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/my_robot_interfaces/srv/SetLEDPanelState.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wward/ros2_workspace/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
@@ -111,6 +120,15 @@ rosidl_generator_py/my_robot_interfaces/msg/_hardware_status.py: rosidl_generato
 
 rosidl_generator_py/my_robot_interfaces/msg/_led_panel_state.py: rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_robot_interfaces/msg/_led_panel_state.py
+
+rosidl_generator_py/my_robot_interfaces/msg/_new_turtle.py: rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_robot_interfaces/msg/_new_turtle.py
+
+rosidl_generator_py/my_robot_interfaces/msg/_new_turtle_list.py: rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_robot_interfaces/msg/_new_turtle_list.py
+
+rosidl_generator_py/my_robot_interfaces/msg/_kill_turtle.py: rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_robot_interfaces/msg/_kill_turtle.py
 
 rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area.py: rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area.py
@@ -130,6 +148,15 @@ rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.c: rosidl_generat
 rosidl_generator_py/my_robot_interfaces/msg/_led_panel_state_s.c: rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_robot_interfaces/msg/_led_panel_state_s.c
 
+rosidl_generator_py/my_robot_interfaces/msg/_new_turtle_s.c: rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_robot_interfaces/msg/_new_turtle_s.c
+
+rosidl_generator_py/my_robot_interfaces/msg/_new_turtle_list_s.c: rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_robot_interfaces/msg/_new_turtle_list_s.c
+
+rosidl_generator_py/my_robot_interfaces/msg/_kill_turtle_s.c: rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_robot_interfaces/msg/_kill_turtle_s.c
+
 rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.c: rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.c
 
@@ -143,8 +170,14 @@ my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/_my_robot_inter
 my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/__init__.py
 my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_hardware_status.py
 my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.c
+my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_kill_turtle.py
+my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_kill_turtle_s.c
 my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_led_panel_state.py
 my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_led_panel_state_s.c
+my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_new_turtle.py
+my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_new_turtle_list.py
+my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_new_turtle_list_s.c
+my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_new_turtle_s.c
 my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/srv/__init__.py
 my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area.py
 my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.c

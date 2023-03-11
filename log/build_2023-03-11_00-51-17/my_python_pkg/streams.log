@@ -1,0 +1,38 @@
+[0.466s] Invoking command in '/home/wward/ros2_workspace/build/my_python_pkg': CMAKE_PREFIX_PATH=/home/wward/ros2_workspace/install/my_robot_interfaces:/home/wward/ros2_workspace/install/my_robot_bringup:/home/wward/ros2_workspace/install/my_cpp_pkg PYTHONPATH=/home/wward/ros2_workspace/build/my_python_pkg/prefix_override:/home/wward/ros2_workspace/install/my_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/wward/ros2_workspace/build/my_python_pkg/build
+[0.650s] running develop
+[0.785s] Invoked command in '/home/wward/ros2_workspace/build/my_python_pkg' returned '0': CMAKE_PREFIX_PATH=/home/wward/ros2_workspace/install/my_robot_interfaces:/home/wward/ros2_workspace/install/my_robot_bringup:/home/wward/ros2_workspace/install/my_cpp_pkg PYTHONPATH=/home/wward/ros2_workspace/build/my_python_pkg/prefix_override:/home/wward/ros2_workspace/install/my_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/wward/ros2_workspace/build/my_python_pkg/build
+[0.787s] Invoking command in '/home/wward/ros2_workspace/src/my_python_pkg': CMAKE_PREFIX_PATH=/home/wward/ros2_workspace/install/my_robot_interfaces:/home/wward/ros2_workspace/install/my_robot_bringup:/home/wward/ros2_workspace/install/my_cpp_pkg PYTHONPATH=/home/wward/ros2_workspace/build/my_python_pkg/prefix_override:/home/wward/ros2_workspace/install/my_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /home/wward/ros2_workspace/build/my_python_pkg/build install --record /home/wward/ros2_workspace/build/my_python_pkg/install.log --single-version-externally-managed
+[0.959s] running egg_info
+[0.964s] writing ../../build/my_python_pkg/my_python_pkg.egg-info/PKG-INFO
+[0.964s] writing dependency_links to ../../build/my_python_pkg/my_python_pkg.egg-info/dependency_links.txt
+[0.964s] writing entry points to ../../build/my_python_pkg/my_python_pkg.egg-info/entry_points.txt
+[0.964s] writing requirements to ../../build/my_python_pkg/my_python_pkg.egg-info/requires.txt
+[0.965s] writing top-level names to ../../build/my_python_pkg/my_python_pkg.egg-info/top_level.txt
+[0.966s] reading manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[0.967s] writing manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[0.967s] running build
+[0.967s] running build_py
+[0.967s] copying my_python_pkg/turtle_controller.py -> /home/wward/ros2_workspace/build/my_python_pkg/build/lib/my_python_pkg
+[0.967s] running install
+[0.967s] running install_lib
+[0.968s] copying /home/wward/ros2_workspace/build/my_python_pkg/build/lib/my_python_pkg/turtle_controller.py -> /home/wward/ros2_workspace/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg
+[0.970s] byte-compiling /home/wward/ros2_workspace/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg/turtle_controller.py to turtle_controller.cpython-310.pyc
+[0.971s] running install_data
+[0.971s] running install_egg_info
+[0.972s] removing '/home/wward/ros2_workspace/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.972s] Copying ../../build/my_python_pkg/my_python_pkg.egg-info to /home/wward/ros2_workspace/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg-0.0.0-py3.10.egg-info
+[0.973s] running install_scripts
+[0.988s] Installing add_two_ints_client script to /home/wward/ros2_workspace/install/my_python_pkg/lib/my_python_pkg
+[0.989s] Installing add_two_ints_client_no_oop script to /home/wward/ros2_workspace/install/my_python_pkg/lib/my_python_pkg
+[0.999s] Installing add_two_ints_server script to /home/wward/ros2_workspace/install/my_python_pkg/lib/my_python_pkg
+[0.999s] Installing battery script to /home/wward/ros2_workspace/install/my_python_pkg/lib/my_python_pkg
+[1.000s] Installing hw_status_publisher script to /home/wward/ros2_workspace/install/my_python_pkg/lib/my_python_pkg
+[1.000s] Installing led_panel script to /home/wward/ros2_workspace/install/my_python_pkg/lib/my_python_pkg
+[1.000s] Installing number_publisher script to /home/wward/ros2_workspace/install/my_python_pkg/lib/my_python_pkg
+[1.000s] Installing py_node script to /home/wward/ros2_workspace/install/my_python_pkg/lib/my_python_pkg
+[1.000s] Installing robot_news_station script to /home/wward/ros2_workspace/install/my_python_pkg/lib/my_python_pkg
+[1.000s] Installing smartphone script to /home/wward/ros2_workspace/install/my_python_pkg/lib/my_python_pkg
+[1.000s] Installing turtle_controller script to /home/wward/ros2_workspace/install/my_python_pkg/lib/my_python_pkg
+[1.000s] Installing turtle_spawner script to /home/wward/ros2_workspace/install/my_python_pkg/lib/my_python_pkg
+[1.000s] writing list of installed files to '/home/wward/ros2_workspace/build/my_python_pkg/install.log'
+[1.018s] Invoked command in '/home/wward/ros2_workspace/src/my_python_pkg' returned '0': CMAKE_PREFIX_PATH=/home/wward/ros2_workspace/install/my_robot_interfaces:/home/wward/ros2_workspace/install/my_robot_bringup:/home/wward/ros2_workspace/install/my_cpp_pkg PYTHONPATH=/home/wward/ros2_workspace/build/my_python_pkg/prefix_override:/home/wward/ros2_workspace/install/my_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /home/wward/ros2_workspace/build/my_python_pkg/build install --record /home/wward/ros2_workspace/build/my_python_pkg/install.log --single-version-externally-managed
